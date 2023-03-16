@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="9j:ex=:m}eV={8LpX53+" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="#aMnd=%!Mk!::vKjO_46"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="-`@3a/nv{!:pcZ~4/i1E"><field name="LEDS">`
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="vKneWpf+mzk(I/.9Mde@"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_print_message" id="j|x7}^Y;4*rB*_)z[!m/"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="device_temperature" id="/Y+nbmPLi2/BS$^$fI:*"></block></value></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id=".sTCu-S,o@--BTtF:9k8" x="303" y="11"><statement name="HANDLER"><block type="playMelody" id="+7qZ1u;/:/PmW8+VW385"><value name="melody"><shadow type="melody_editor" id="Gg]D`j,3l,xd{QCz/lyT"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="q/R6p-Wd4%4a0zmvY%CW"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="ZFjNtDAs)0q2FIY;T|+}"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></statement></block></xml>
